@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+
+body {
+    background-color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+
+.title {
+    text-align: center;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    position: relative;
+}
+
+.title::after {
+    content: '>';
+    position: absolute;
+    right: 370px;
+    top: 30px;
+    color: red;
+    transform: rotate(90deg);
+}
+
+.title::before {
+    content: '>';
+    position: absolute;
+    left: 370px;
+    transform: rotate(90deg);
+    top: 30px;
+    color: green;
+}
+
+img {
+    width: 30%;
+    border-radius: 12px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.false {
+    background-color: red;
+    color: white !important;
+}
+
+.true {
+    background-color: green;
+    color: white !important;
+}
+
+#container {
+    max-width: 300px;
+    border: 2px solid rgb(135, 134, 134);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 20vh;
+
+}
+
+#members {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.OrangeRed {
+    background: #ff4500;
+    color: white !important;
+}
+
+.DeepPink {
+    background: #FF1493;
+    color: white !important;
+}
+
+.AliceBlue {
+    background: #71BDFF;
+    color: white !important;
+}
+
+[data-id="OrangeRed"] {
+    background: #ff4500;
+    transition: 0.4s;
+}
+
+[data-id="AliceBlue"] {
+    background: #71BDFF;
+    transition: 0.4s;
+}
+
+[data-id="DeepPink"] {
+    background: #FF1493;
+    transition: 0.4s;
+}
+[data-id="All Members"]:hover{
+    background-color: #05121f68;
+}
+[data-id="DeepPink"]:hover{
+    background-color: #ff149181;
+}
+[data-id="OrangeRed"]:hover{
+    background-color: #ff440095;
+}
+[data-id="AliceBlue"]:hover{
+    background-color: #71bdff9e;
+}
+.card {
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+button {
+    border: none;
+    padding: 18px 34px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 3px;
+    background-color: #05121f9d;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.people-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.assistant {
+    background-color: rgba(0, 128, 0, 0.815);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.members {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
