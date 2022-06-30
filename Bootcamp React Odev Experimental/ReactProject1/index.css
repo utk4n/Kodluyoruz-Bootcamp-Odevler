@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Poppins:wght@100;200;400;500;700&display=swap');
+*{
+    font-family: 'Poppins';
+    
+}
+
+.card-wrapper {
+    width: 200px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+}
+img{
+    height: 50%;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.properties {
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.assistant {
+    padding-inline: 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0;
+
+}
+
+.group {
+    box-shadow: 0 0 5px 0;
+    padding-inline: 12px;
+    border-radius: 10px;
+}

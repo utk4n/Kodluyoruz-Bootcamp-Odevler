@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.buttons button {
+  border: none;
+  color: #fff;
+  font-size:16px;
+  padding: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.buttons button[data-group="OrangeRed"] {
+  background: red;
+}
+
+.buttons button[data-group="DeepPink"] {
+  background: fuchsia;
+}
+
+.buttons button[data-group="AliceBlue"] {
+  background: blue;
+}
+
+
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.items ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 20px;
+  justify-content: center;
+}
+
+.items ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  background: #4caf50;
+}
