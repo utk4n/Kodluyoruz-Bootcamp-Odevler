@@ -1,4 +1,4 @@
-//Groupların teke indirgenim menü butonu olarak ayarlanması.
+//Groupların teke indirgenip menü butonu olarak ayarlanması.
 
 function SelectedItem({data, handleClick }) {
   const listItem = data
