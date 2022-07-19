@@ -1,0 +1,16 @@
+.cards_wrapper {
+    width: 100%;
+
+}
+
+.cards_container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .cards_wrapper {
+        margin-top: 50px;
+    }
+}
